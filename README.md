@@ -17,9 +17,9 @@
 ​Este programa usa uma biblioteca especial para deixar as tabelas coloridas e bonitas.
 Abra seu terminal (CMD, PowerShell ou Termux) e digite:
 
-'''bash
+```bash
 pip install rich
-'''
+```
 
 📂 Como Usar (Passo a Passo)
 ​Passo 1: Baixe o Extrato da sua Corretora
@@ -30,23 +30,21 @@ pip install rich
 ​Passo 3: Rode o Programa
 ​Abra o terminal na pasta do projeto e execute:
 
-'''bash
+```bash
 python importador_visual.py
-
-'''
+```
 
 Passo 4: Mapeando as Colunas (A Mágica)
 ​Como cada corretora organiza o arquivo de um jeito diferente, o programa vai te mostrar uma lista numerada das colunas e pedir ajuda uma única vez.
 ​Exemplo do que vai aparecer na tela:
-''' bash
+```bash
 [0] Date(UTC)
 [1] OrderNo
 [2] Pair
 [3] Type
 [4] Amount (BTC)
 [5] Total (BRL)
-
-'''
+```
 
 O programa vai perguntar: "Digite os números das colunas [DATA] [SATS] [VALOR GASTO]".
 ​Olhando o exemplo acima:
